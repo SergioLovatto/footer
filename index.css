@@ -60,8 +60,8 @@ text-align: center; }
 
 
 .trabajos .tp1 {
-    width: 80%;
-    height: 40%;
+    width: 37.5%;
+    height: 35%;
     background-image: url("./img/tp1.png"); 
     background-repeat: no-repeat;
     background-position: center;
@@ -71,7 +71,10 @@ text-align: center; }
      align-items: center;
     justify-content: center;
     transition: transform 1s;
-}
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    }
 
 .trabajos .tp1:hover {
     transform: scale(1.5);
@@ -83,8 +86,8 @@ text-align: center; }
 }
 
 .trabajos .tp2 {
-    width: 80%;
-    height: 40%; 
+    width: 37.5%;
+    height: 35%; 
     background-image: url("./img/tp2.png"); 
     background-repeat: no-repeat;
     background-position: center;
@@ -94,6 +97,9 @@ text-align: center; }
     align-items: center;
     justify-content: center;
     transition: transform 1s;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .trabajos .tp2:hover {
@@ -107,8 +113,8 @@ text-align: center; }
 }
 
 .trabajos .tp3 {
-    width: 80%;
-    height: 40%; 
+    width: 37.5%;
+    height: 35%; 
     background-image: url("./img/tp3.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -118,6 +124,9 @@ text-align: center; }
     align-items: center;
     justify-content: center;
     transition: transform 1s;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .trabajos .tp3:hover {
@@ -131,8 +140,8 @@ text-align: center; }
 }
 
 .trabajos .tp4 {
-    width: 80%;
-    height: 40%; 
+    width: 37.5%;
+    height: 35%;
     background-image: url("./img/tp4.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -142,6 +151,9 @@ text-align: center; }
     align-items: center;
     justify-content: center;
     transition: transform 1s;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .trabajos .tp4:hover {
@@ -154,8 +166,8 @@ text-align: center; }
 }
 
 .trabajos .tp5 {
-    width: 80%;
-    height: 40%; 
+    width: 37.5%;
+    height: 35%; 
     background-image: url("./img/tp5.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -165,6 +177,9 @@ text-align: center; }
     align-items: center;
     justify-content: center;
     transition: transform 1s;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .trabajos .tp5:hover {
@@ -176,3 +191,275 @@ text-align: center; }
     visibility: visible;
 }
 
+.contenedor{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor .datos {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.datos h2 {
+    height: 10%;
+    width: 100%;
+    font-size: 3rem;
+}
+
+.ubicacion1 {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.ubicacion1 img {
+    width: 35px;
+    height: 35px;
+}
+
+.ubicacion2 {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ubicacion2 img {
+    width: 35px;
+    height: 35px;
+}
+
+.imagen {
+    height: 50%;
+    width: 100%;
+    background-image: url("./img/imagen.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+@media (max-width: 768px) and (min-width: 426px) {
+   
+    .textos h2{
+
+        padding: 1rem;
+        font-size: 4rem;
+    }
+    .textos p {
+        font-size: 1.2rem;
+    }
+   
+    .trabajos {
+       flex-wrap: wrap;
+       justify-content: space-around;
+       overflow: auto;
+       flex-direction: row;
+   
+   }
+
+   .trabajos .tp1{
+       width: 28%;
+       height: 25%;
+       margin: 0;
+       padding: 0;
+   }
+
+   .trabajos .tp2 {
+    width: 28%;
+    height: 25%;
+    margin: 0;
+    padding: 0;
+}
+
+.trabajos .tp3 {
+    width: 28%;
+    height: 25%;
+    margin: 0;
+    padding: 0;
+}
+
+.trabajos .tp4 {
+    width: 28%;
+       height: 25%;
+    margin: 0;
+    padding: 0;
+}
+
+.trabajos .tp5 {
+    width: 28%;
+    height: 25%;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.contenedor .datos {
+   
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ubicacion1 {
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;  
+    padding-left: 1rem;
+}
+
+.ubicacion2 {
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 1rem;
+}
+
+.ultimo {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+}
+
+.datos h2 {
+    padding-bottom: 3rem;
+}
+
+.imagen {
+    height: 100%;
+    width: 70%;
+    padding-right: 2rem;}
+
+}
+
+@media (min-width: 769px) {
+  
+    .textos h2{
+
+        padding: 1rem;
+        font-size: 4rem;
+    }
+    .textos p {
+        font-size: 1.2rem;
+    }
+
+    .trabajos {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+   
+    
+   .trabajos .tp1{
+    width: 13.5%;
+    height: 23.5%;
+    margin: 0;
+    padding: 0;
+}
+
+.trabajos .tp2 {
+    width: 13.5%;
+    height: 23.5%;
+ margin: 0;
+ padding: 0;
+}
+
+.trabajos .tp3 {
+    width: 13.5%;
+    height: 23.5%;
+ margin: 0;
+ padding: 0;
+}
+
+.trabajos .tp4 {
+    width: 13.5%;
+    height: 23.5%;
+ margin: 0;
+ padding: 0;
+}
+
+.trabajos .tp5 {
+    width: 13.5%;
+    height: 23.5%;
+ margin: 0;
+ padding: 0;
+}
+
+.contenedor {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.contenedor .datos {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ubicacion1 {
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;  
+    padding-left: 1rem;
+}
+
+.ubicacion2 {
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 1rem;
+}
+
+.ultimo {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+}
+
+.datos h2 {
+    padding-bottom: 5rem;
+}
+
+.imagen {
+    widht: 100%;
+    height: 70%;
+}
+footer {
+    height: 10%;
+    width: 100%;
+    background-color: blue;
+}
+
+}
