@@ -1,0 +1,178 @@
+* {
+box-sizing: border-box;
+margin: 0;
+text-align: center; }
+
+
+.works {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./img/fondo\ de\ landing.png");
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.textos {
+    width: 100%;
+    height: 20%;
+    align-items: center;
+}
+
+.textos h2{
+
+    padding: 1rem;
+    font-size: 2rem;
+}
+.textos p {
+    font-size: 0.7rem;
+}
+
+.trabajos {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+.trabajos a {
+    height: 1.5rem;
+    width: 55%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.6;
+    font-size: 16px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    visibility: hidden;
+    text-decoration: none;
+    margin: 0px;
+}
+
+
+.trabajos .tp1 {
+    width: 80%;
+    height: 40%;
+    background-image: url("./img/tp1.png"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+     margin-bottom: 1rem;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+    transition: transform 1s;
+}
+
+.trabajos .tp1:hover {
+    transform: scale(1.5);
+}
+
+.trabajos .tp1:hover > .boton1{
+    opacity: 1;
+    visibility: visible;       
+}
+
+.trabajos .tp2 {
+    width: 80%;
+    height: 40%; 
+    background-image: url("./img/tp2.png"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 1rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s;
+}
+
+.trabajos .tp2:hover {
+    transform: scale(1.5);      
+}
+
+
+.trabajos .tp2:hover > .boton2{
+    opacity: 1;
+    visibility: visible;
+}
+
+.trabajos .tp3 {
+    width: 80%;
+    height: 40%; 
+    background-image: url("./img/tp3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 1rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s;
+}
+
+.trabajos .tp3:hover {
+    transform: scale(1.5);  
+}
+
+
+.trabajos .tp3:hover > .boton3{
+    opacity: 1;
+    visibility: visible;
+}
+
+.trabajos .tp4 {
+    width: 80%;
+    height: 40%; 
+    background-image: url("./img/tp4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 1rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s;
+}
+
+.trabajos .tp4:hover {
+    transform: scale(1.5);      
+}
+
+.trabajos .tp4:hover > .boton4{
+    opacity: 1;
+    visibility: visible;
+}
+
+.trabajos .tp5 {
+    width: 80%;
+    height: 40%; 
+    background-image: url("./img/tp5.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s;
+}
+
+.trabajos .tp5:hover {
+    transform: scale(1.5);
+}
+
+.trabajos .tp5:hover > .boton5{
+    opacity: 1;
+    visibility: visible;
+}
+
